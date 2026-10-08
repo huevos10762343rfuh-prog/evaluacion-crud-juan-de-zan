@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+.body{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    display: flex;
+}
+.container{
+    background-color: bisque;
+    width: 300px;
+    gap: 30px;
+    margin: 90px;
+    padding: 2%;
+    justify-content: center;
+}
